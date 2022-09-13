@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 
 
@@ -5,6 +6,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="w-full">
+      <Head>
+        <title> w-udhav </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <img className="w-[100vw] h-[70vh] object-none object-center mx-auto container rounded-lg shadow-xl" src="/skis.jpg" alt='main photo' />
       <section className="text-gray-600 body-font">
         <div className="container mx-auto px-5 py-10">
